@@ -1,3 +1,4 @@
+//copy from https://github.com/go-skynet/go-llama.cpp/blob/master/binding.h
 #ifdef __cplusplus
 #include <vector>
 #include <string>

@@ -13,4 +13,6 @@ add_library(gollama
             binding.h
 )
 
+target_include_directories(gollama PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_definitions(gollama PRIVATE GOLLAMA_SHARED GOLLAMA_BUILD)
 target_link_libraries(gollama common llama ${CMAKE_THREAD_LIBS_INIT})

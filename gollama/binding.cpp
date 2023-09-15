@@ -1,3 +1,5 @@
+//copy from https://github.com/go-skynet/go-llama.cpp/blob/master/binding.cpp
+
 #include "common.h"
 #include "llama.h"
 
